@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0F80F8AB2D478EF500932E94 /* Exceptions for "ListViewPD" folder in "ListViewPDTests" target */ = {
+		0F80F8AB2D478EF500932E94 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Model/City.swift,
@@ -47,7 +47,7 @@
 			);
 			target = 0F80F8872D478CBC00932E94 /* ListViewPDTests */;
 		};
-		0F80F8AC2D478EF500932E94 /* Exceptions for "ListViewPD" folder in "ListViewPDUITests" target */ = {
+		0F80F8AC2D478EF500932E94 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Model/City.swift,
@@ -67,25 +67,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0F80F8782D478CBA00932E94 /* ListViewPD */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				0F80F8AB2D478EF500932E94 /* Exceptions for "ListViewPD" folder in "ListViewPDTests" target */,
-				0F80F8AC2D478EF500932E94 /* Exceptions for "ListViewPD" folder in "ListViewPDUITests" target */,
-			);
-			path = ListViewPD;
-			sourceTree = "<group>";
-		};
-		0F80F88B2D478CBC00932E94 /* ListViewPDTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ListViewPDTests;
-			sourceTree = "<group>";
-		};
-		0F80F8952D478CBC00932E94 /* ListViewPDUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ListViewPDUITests;
-			sourceTree = "<group>";
-		};
+		0F80F8782D478CBA00932E94 /* ListViewPD */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (0F80F8AB2D478EF500932E94 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 0F80F8AC2D478EF500932E94 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ListViewPD; sourceTree = "<group>"; };
+		0F80F88B2D478CBC00932E94 /* ListViewPDTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ListViewPDTests; sourceTree = "<group>"; };
+		0F80F8952D478CBC00932E94 /* ListViewPDUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ListViewPDUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +212,7 @@
 				};
 			};
 			buildConfigurationList = 0F80F8712D478CBA00932E94 /* Build configuration list for PBXProject "ListViewPD" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -236,7 +221,6 @@
 			);
 			mainGroup = 0F80F86D2D478CBA00932E94;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 0F80F8772D478CBA00932E94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
